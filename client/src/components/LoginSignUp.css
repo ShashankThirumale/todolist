@@ -1,0 +1,66 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background: #8758ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+
+  .LoginWrapper {
+    background: #1A1A40;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 5px;
+  }
+
+  .LoginForm {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .login-input {
+    outline: none;
+    background: none;
+    border: 1px solid #8758ff;
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+    margin-top:0.5rem;
+    width: 300px;
+    color: #fff;
+    margin-left:5px;
+  }
+  .input{
+    margin-bottom:10px;
+    align-content: center;
+  }
+  .submit-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .login-btn{
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
