@@ -17,3 +17,25 @@ SQL database to hopefully make it so that users can bring back a task incase it 
 1. A icon to tell if a user is logged in.
 2. A way to bring back tasks that were deleted
 3. Authentication with Google
+
+## Login Page
+The login page allows user to login. If they are are not signed up they will be sent an error message to try again or sign up. The login requires an email and password. I will be trying 
+to authenticate with google soon but for the time being this is the best I can do. When the user tries to login I will search the login info table in my SQL database to see if the user exists. 
+Once the user logs in they will be redirected to the home page.
+
+## SignUp Page
+The Signup page is very similar to the login page. When the user types in there information once the information is added to the login table in the SQLL database the user will be notified 
+and asked to navigate to the login page.
+
+## Home Screen
+The home screen will first have all of the tasks that the user has created in the past.
+There is will an area where they can type in text and create a new task. When submiting the add task form I will add the information to the the tasks table with the username of the user,
+a unique task id, task name, and completion status. 
+When a task is added to the list users can mark the task as done by simply clicking on the name of the task. There is also a button that will allow the user to edit the task and another
+button to allow the user to remove the task. All of these changes will be reflected in the tasks table of the SQL database so that whenever the user logs in the changes can be seen. 
+As I staed earlier I hope to add a icon that will show whether the user is logged in or not so that they are able to access the full capabilites of the app. I want to make a mode where the 
+user does not need to be logged in to access all of the features but their tasks will not be saved if they decide to close the window.
+
+## Deploying to the cloud
+I want to deploy this web app to the cloud so that everyone can access it. I have been trying to host it on Microsoft Azure but I am having a hard time with the inbound ports. I will be 
+trying to host this app in AWS using an EC2 instance and a MYSQL database. I am still in the process of doing this so it may take me some time.
